@@ -1,0 +1,76 @@
+HOUSE PRICE DATA QUALITY REPORT
+==================================================
+
+Analysis Date: 2025-11-21 08:40:50
+
+SUMMARY:
+  Total Datasets: 8
+  Datasets Processed: 8
+  Original Total Rows: 153,829
+  Filtered Total Rows: 89,476
+  Overall Retention Rate: 58.2%
+
+HOUSE_PRICE_INDIA:
+  Original Shape: 14,620 rows × 23 columns
+  Filtered Shape: 14,618 rows × 23 columns
+  Rows Removed: 2
+  Retention Rate: 100.0%
+  Original Duplicates: 0
+
+HOUSE_PRICES:
+  Original Shape: 21,613 rows × 21 columns
+  Filtered Shape: 21,612 rows × 21 columns
+  Rows Removed: 1
+  Retention Rate: 100.0%
+  Original Duplicates: 0
+
+HOUSING:
+  Original Shape: 21,613 rows × 21 columns
+  Filtered Shape: 21,612 rows × 21 columns
+  Rows Removed: 1
+  Retention Rate: 100.0%
+  Original Duplicates: 0
+
+HOUSING_PRICE_INDEX_2010-11_100:
+  Original Shape: 7 rows × 11 columns
+  Filtered Shape: 7 rows × 11 columns
+  Rows Removed: 0
+  Retention Rate: 100.0%
+  Original Duplicates: 0
+
+NOMINAL_INDEX:
+  Original Shape: 23,994 rows × 4 columns
+  Filtered Shape: 7,899 rows × 4 columns
+  Rows Removed: 16,095
+  Retention Rate: 32.9%
+  Original Duplicates: 0
+  Top Null Columns (original):
+    price: 15,793 (65.8%)
+
+NOMINAL_YEAR:
+  Original Shape: 23,994 rows × 4 columns
+  Filtered Shape: 7,859 rows × 4 columns
+  Rows Removed: 16,135
+  Retention Rate: 32.8%
+  Original Duplicates: 0
+  Top Null Columns (original):
+    price: 16,129 (67.2%)
+
+REAL_INDEX:
+  Original Shape: 23,994 rows × 4 columns
+  Filtered Shape: 8,092 rows × 4 columns
+  Rows Removed: 15,902
+  Retention Rate: 33.7%
+  Original Duplicates: 0
+  Top Null Columns (original):
+    price: 15,881 (66.2%)
+
+REAL_YEAR:
+  Original Shape: 23,994 rows × 4 columns
+  Filtered Shape: 7,777 rows × 4 columns
+  Rows Removed: 16,217
+  Retention Rate: 32.4%
+  Original Duplicates: 0
+  Top Null Columns (original):
+    price: 16,217 (67.6%)
+

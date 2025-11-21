@@ -1,0 +1,455 @@
+{
+  "analysis_date": "2025-11-21T08:40:49.908361",
+  "summary": {
+    "total_datasets": 8,
+    "datasets_processed": 8,
+    "total_original_rows": 153829,
+    "total_filtered_rows": 89476
+  },
+  "datasets": {
+    "house_price_india": {
+      "filename": "House Price India.csv",
+      "original_shape": [
+        14620,
+        23
+      ],
+      "original_columns": [
+        "id",
+        "Date",
+        "number of bedrooms",
+        "number of bathrooms",
+        "living area",
+        "lot area",
+        "number of floors",
+        "waterfront present",
+        "number of views",
+        "condition of the house",
+        "grade of the house",
+        "Area of the house(excluding basement)",
+        "Area of the basement",
+        "Built Year",
+        "Renovation Year",
+        "Postal Code",
+        "Lattitude",
+        "Longitude",
+        "living_area_renov",
+        "lot_area_renov",
+        "Number of schools nearby",
+        "Distance from the airport",
+        "Price"
+      ],
+      "original_null_counts": {
+        "id": 0,
+        "Date": 0,
+        "number of bedrooms": 0,
+        "number of bathrooms": 0,
+        "living area": 0,
+        "lot area": 0,
+        "number of floors": 0,
+        "waterfront present": 0,
+        "number of views": 0,
+        "condition of the house": 0,
+        "grade of the house": 0,
+        "Area of the house(excluding basement)": 0,
+        "Area of the basement": 0,
+        "Built Year": 0,
+        "Renovation Year": 0,
+        "Postal Code": 0,
+        "Lattitude": 0,
+        "Longitude": 0,
+        "living_area_renov": 0,
+        "lot_area_renov": 0,
+        "Number of schools nearby": 0,
+        "Distance from the airport": 0,
+        "Price": 0
+      },
+      "original_duplicates": "0",
+      "filtered_shape": [
+        14618,
+        23
+      ],
+      "filtered_null_counts": {
+        "id": 0,
+        "Date": 0,
+        "number of bedrooms": 0,
+        "number of bathrooms": 0,
+        "living area": 0,
+        "lot area": 0,
+        "number of floors": 0,
+        "waterfront present": 0,
+        "number of views": 0,
+        "condition of the house": 0,
+        "grade of the house": 0,
+        "Area of the house(excluding basement)": 0,
+        "Area of the basement": 0,
+        "Built Year": 0,
+        "Renovation Year": 0,
+        "Postal Code": 0,
+        "Lattitude": 0,
+        "Longitude": 0,
+        "living_area_renov": 0,
+        "lot_area_renov": 0,
+        "Number of schools nearby": 0,
+        "Distance from the airport": 0,
+        "Price": 0
+      },
+      "filtered_duplicates": "0",
+      "rows_removed": 2,
+      "retention_rate": 99.98632010943912
+    },
+    "house_prices": {
+      "filename": "house_prices.csv",
+      "original_shape": [
+        21613,
+        21
+      ],
+      "original_columns": [
+        "id",
+        "date",
+        "price",
+        "bedrooms",
+        "bathrooms",
+        "sqft_living",
+        "sqft_lot",
+        "floors",
+        "waterfront",
+        "view",
+        "condition",
+        "grade",
+        "sqft_above",
+        "sqft_basement",
+        "yr_built",
+        "yr_renovated",
+        "zipcode",
+        "lat",
+        "long",
+        "sqft_living15",
+        "sqft_lot15"
+      ],
+      "original_null_counts": {
+        "id": 0,
+        "date": 0,
+        "price": 0,
+        "bedrooms": 0,
+        "bathrooms": 0,
+        "sqft_living": 0,
+        "sqft_lot": 0,
+        "floors": 0,
+        "waterfront": 0,
+        "view": 0,
+        "condition": 0,
+        "grade": 0,
+        "sqft_above": 0,
+        "sqft_basement": 0,
+        "yr_built": 0,
+        "yr_renovated": 0,
+        "zipcode": 0,
+        "lat": 0,
+        "long": 0,
+        "sqft_living15": 0,
+        "sqft_lot15": 0
+      },
+      "original_duplicates": "0",
+      "filtered_shape": [
+        21612,
+        21
+      ],
+      "filtered_null_counts": {
+        "id": 0,
+        "date": 0,
+        "price": 0,
+        "bedrooms": 0,
+        "bathrooms": 0,
+        "sqft_living": 0,
+        "sqft_lot": 0,
+        "floors": 0,
+        "waterfront": 0,
+        "view": 0,
+        "condition": 0,
+        "grade": 0,
+        "sqft_above": 0,
+        "sqft_basement": 0,
+        "yr_built": 0,
+        "yr_renovated": 0,
+        "zipcode": 0,
+        "lat": 0,
+        "long": 0,
+        "sqft_living15": 0,
+        "sqft_lot15": 0
+      },
+      "filtered_duplicates": "0",
+      "rows_removed": 1,
+      "retention_rate": 99.99537315504557
+    },
+    "housing": {
+      "filename": "Housing.csv",
+      "original_shape": [
+        21613,
+        21
+      ],
+      "original_columns": [
+        "id",
+        "date",
+        "price",
+        "bedrooms",
+        "bathrooms",
+        "sqft_living",
+        "sqft_lot",
+        "floors",
+        "waterfront",
+        "view",
+        "condition",
+        "grade",
+        "sqft_above",
+        "sqft_basement",
+        "yr_built",
+        "yr_renovated",
+        "zipcode",
+        "lat",
+        "long",
+        "sqft_living15",
+        "sqft_lot15"
+      ],
+      "original_null_counts": {
+        "id": 0,
+        "date": 0,
+        "price": 0,
+        "bedrooms": 0,
+        "bathrooms": 0,
+        "sqft_living": 0,
+        "sqft_lot": 0,
+        "floors": 0,
+        "waterfront": 0,
+        "view": 0,
+        "condition": 0,
+        "grade": 0,
+        "sqft_above": 0,
+        "sqft_basement": 0,
+        "yr_built": 0,
+        "yr_renovated": 0,
+        "zipcode": 0,
+        "lat": 0,
+        "long": 0,
+        "sqft_living15": 0,
+        "sqft_lot15": 0
+      },
+      "original_duplicates": "0",
+      "filtered_shape": [
+        21612,
+        21
+      ],
+      "filtered_null_counts": {
+        "id": 0,
+        "date": 0,
+        "price": 0,
+        "bedrooms": 0,
+        "bathrooms": 0,
+        "sqft_living": 0,
+        "sqft_lot": 0,
+        "floors": 0,
+        "waterfront": 0,
+        "view": 0,
+        "condition": 0,
+        "grade": 0,
+        "sqft_above": 0,
+        "sqft_basement": 0,
+        "yr_built": 0,
+        "yr_renovated": 0,
+        "zipcode": 0,
+        "lat": 0,
+        "long": 0,
+        "sqft_living15": 0,
+        "sqft_lot15": 0
+      },
+      "filtered_duplicates": "0",
+      "rows_removed": 1,
+      "retention_rate": 99.99537315504557
+    },
+    "housing_price_index_2010-11_100": {
+      "filename": "housing_price_index_2010-11_100.csv",
+      "original_shape": [
+        7,
+        11
+      ],
+      "original_columns": [
+        "Particulars",
+        " 06-2011",
+        " 09-2011",
+        " 12-2011",
+        " 03-2012",
+        " 06-2012",
+        " 09-2012",
+        " 12-2012",
+        " 03-2013",
+        " 06-2013",
+        " 09-2013"
+      ],
+      "original_null_counts": {
+        "Particulars": 0,
+        " 06-2011": 0,
+        " 09-2011": 0,
+        " 12-2011": 0,
+        " 03-2012": 0,
+        " 06-2012": 0,
+        " 09-2012": 0,
+        " 12-2012": 0,
+        " 03-2013": 0,
+        " 06-2013": 0,
+        " 09-2013": 0
+      },
+      "original_duplicates": "0",
+      "filtered_shape": [
+        7,
+        11
+      ],
+      "filtered_null_counts": {
+        "Particulars": 0,
+        " 06-2011": 0,
+        " 09-2011": 0,
+        " 12-2011": 0,
+        " 03-2012": 0,
+        " 06-2012": 0,
+        " 09-2012": 0,
+        " 12-2012": 0,
+        " 03-2013": 0,
+        " 06-2013": 0,
+        " 09-2013": 0
+      },
+      "filtered_duplicates": "0",
+      "rows_removed": 0,
+      "retention_rate": 100.0
+    },
+    "nominal_index": {
+      "filename": "nominal_index.csv",
+      "original_shape": [
+        23994,
+        4
+      ],
+      "original_columns": [
+        "date",
+        "country_code",
+        "country",
+        "price"
+      ],
+      "original_null_counts": {
+        "date": 0,
+        "country_code": 0,
+        "country": 0,
+        "price": 15793
+      },
+      "original_duplicates": "0",
+      "filtered_shape": [
+        7899,
+        4
+      ],
+      "filtered_null_counts": {
+        "date": 0,
+        "country_code": 0,
+        "country": 0,
+        "price": 0
+      },
+      "filtered_duplicates": "0",
+      "rows_removed": 16095,
+      "retention_rate": 32.92073018254564
+    },
+    "nominal_year": {
+      "filename": "nominal_year.csv",
+      "original_shape": [
+        23994,
+        4
+      ],
+      "original_columns": [
+        "date",
+        "country_code",
+        "country",
+        "price"
+      ],
+      "original_null_counts": {
+        "date": 0,
+        "country_code": 0,
+        "country": 0,
+        "price": 16129
+      },
+      "original_duplicates": "0",
+      "filtered_shape": [
+        7859,
+        4
+      ],
+      "filtered_null_counts": {
+        "date": 0,
+        "country_code": 0,
+        "country": 0,
+        "price": 0
+      },
+      "filtered_duplicates": "0",
+      "rows_removed": 16135,
+      "retention_rate": 32.75402183879303
+    },
+    "real_index": {
+      "filename": "real_index.csv",
+      "original_shape": [
+        23994,
+        4
+      ],
+      "original_columns": [
+        "date",
+        "country_code",
+        "country",
+        "price"
+      ],
+      "original_null_counts": {
+        "date": 0,
+        "country_code": 0,
+        "country": 0,
+        "price": 15881
+      },
+      "original_duplicates": "0",
+      "filtered_shape": [
+        8092,
+        4
+      ],
+      "filtered_null_counts": {
+        "date": 0,
+        "country_code": 0,
+        "country": 0,
+        "price": 0
+      },
+      "filtered_duplicates": "0",
+      "rows_removed": 15902,
+      "retention_rate": 33.72509794115196
+    },
+    "real_year": {
+      "filename": "real_year.csv",
+      "original_shape": [
+        23994,
+        4
+      ],
+      "original_columns": [
+        "date",
+        "country_code",
+        "country",
+        "price"
+      ],
+      "original_null_counts": {
+        "date": 0,
+        "country_code": 0,
+        "country": 0,
+        "price": 16217
+      },
+      "original_duplicates": "0",
+      "filtered_shape": [
+        7777,
+        4
+      ],
+      "filtered_null_counts": {
+        "date": 0,
+        "country_code": 0,
+        "country": 0,
+        "price": 0
+      },
+      "filtered_duplicates": "0",
+      "rows_removed": 16217,
+      "retention_rate": 32.41226973410019
+    }
+  }
+}
